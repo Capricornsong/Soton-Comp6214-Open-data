@@ -1,0 +1,1674 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lh2u21/ontologies/2022/2/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/lh2u21/ontologies/2022/2/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:received_Wehaven="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_Wehaven&apos;"
+     xmlns:openDataCourseWork1="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_AccreditedFinanceAgreements -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_AccreditedFinanceAgreements">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_BusinessRatesHoliday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_BusinessRatesHoliday">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_CoronavirusJobRetentionScheme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_CoronavirusJobRetentionScheme">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_DeferringVATPayments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_DeferringVATPayments">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_Government-fundedSmallBusinessGrantOrLoanSchemes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_Government-fundedSmallBusinessGrantOrLoanSchemes">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_HMRCTimeToPayScheme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_HMRCTimeToPayScheme">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_WeHaveNotAppliedForAnyOfTheseInitiatives -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#applied_WeHaveNotAppliedForAnyOfTheseInitiatives">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#ceaseTrade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#ceaseTrade">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#continueTrade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#continueTrade">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_AccreditedFinanceAgreements -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_AccreditedFinanceAgreements">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_BusinessRatesHoliday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_BusinessRatesHoliday">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_CoronavirusJobRetentionScheme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_CoronavirusJobRetentionScheme">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_DeferringVATPayments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_DeferringVATPayments">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_Government-fundedSmallBusinessGrantOrLoanSchemes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_Government-fundedSmallBusinessGrantOrLoanSchemes">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_HMRCTimeToPayScheme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_HMRCTimeToPayScheme">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_NoneOfTheAbove -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#intending_NoneOfTheAbove">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#pauseTrade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#pauseTrade">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#receiveSurvey_num -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#receiveSurvey_num">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_AccreditedFinanceAgreements -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_AccreditedFinanceAgreements">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_BusinessRatesHoliday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_BusinessRatesHoliday">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_CoronavirusJobRetentionScheme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_CoronavirusJobRetentionScheme">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_DeferringVATPayments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_DeferringVATPayments">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_Government-fundedSmallBusinessGrantOrLoanSchemes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_Government-fundedSmallBusinessGrantOrLoanSchemes">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_HMRCTimeToPayScheme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_HMRCTimeToPayScheme">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#responseSurvey_num -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#responseSurvey_num">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#responseSurvey_percentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#responseSurvey_percentage">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_Wehaven&apos;tReceivedAnyThatWeAppliedFor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#received_Wehaven&apos;tReceivedAnyThatWeAppliedFor">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#CountryOrArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#CountryOrArea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdfs:comment>Means all industries</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry">
+        <rdfs:comment>Means  single industry total</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllAccommodationAndFoodServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllAccommodationAndFoodServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.206</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.782</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.871</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.806</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.249</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.422</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.027</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.012</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.182</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.122</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.18</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.404</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.235</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.061</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.137</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.398</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.806</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1634</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.035</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.633</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.251</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.596</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.178</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.306</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.316</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.129</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllAdministrativeAndSupportServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllAdministrativeAndSupportServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.123</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.201</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.757</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.637</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.218</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.205</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.139</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.915</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.09</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.089</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.401</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.227</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.063</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.102</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.45</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.081</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2359</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.017</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.12</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.28</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.469</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.144</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.147</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.345</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.206</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllArtsEntertainmentAndRecreation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllArtsEntertainmentAndRecreation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.183</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.572</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.763</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.612</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.18</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.331</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.126</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.205</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.108</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.122</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.41</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.212</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.058</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.104</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.392</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.795</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">718</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.043</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.45</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.219</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.435</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.108</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.255</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.387</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.176</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllConstruction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllConstruction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.096</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.135</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.809</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.599</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.06</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.287</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.117</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.732</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.11</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.032</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.429</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.174</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.05</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.096</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.422</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.261</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1034</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.018</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.057</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.291</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.443</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.021</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.234</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.275</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.27</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllEducation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllEducation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.028</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.085</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.405</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.263</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.022</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.07</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.484</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.868</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.066</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.098</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.459</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.174</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.022</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.421</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.126</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">760</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.038</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.098</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.184</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.057</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.418</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.228</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllHumanHealthAndSocialWorkActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllHumanHealthAndSocialWorkActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.028</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.134</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.345</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.162</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.106</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.063</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.556</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.014</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.938</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.014</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.042</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.31</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.099</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.035</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.056</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.585</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.049</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">294</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.092</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.085</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.155</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.07</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.042</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.49</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.141</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllInformationAndCommunication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllInformationAndCommunication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.038</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.082</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.401</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.474</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.036</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.137</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.373</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.95</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.05</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.07</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.26</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.163</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.029</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.067</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.587</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.045</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1216</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.031</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.154</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.397</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.017</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.106</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.344</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.127</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllManufacturing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllManufacturing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.086</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.14</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.635</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.443</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.048</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.193</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.26</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.79</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.066</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.081</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.383</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.167</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.028</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.092</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.481</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.206</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3155</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.013</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.079</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.199</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.33</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.026</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.147</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.348</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.237</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllMiningAndQuarrying -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllMiningAndQuarrying">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</openDataCourseWork1:receiveSurvey_num>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllOtherServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllOtherServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137</openDataCourseWork1:receiveSurvey_num>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllProfessionalScientificAndTechnicalActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllProfessionalScientificAndTechnicalActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.081</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.126</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.622</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.662</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.049</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.186</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.207</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.967</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.074</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.073</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.35</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.228</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.023</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.083</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.503</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.03</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.023</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.078</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.216</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.518</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.022</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.146</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.362</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.176</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllRealEstateActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllRealEstateActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</openDataCourseWork1:receiveSurvey_num>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllTransportationAndStorage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllTransportationAndStorage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.092</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.241</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.766</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.553</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.064</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.248</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.167</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.915</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.074</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.096</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.355</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.199</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.021</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.078</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.489</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.085</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">863</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.025</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.145</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.287</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.44</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.025</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.188</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.327</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.184</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllWaterSupplySewerageWasteManagementAndRemediationActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllWaterSupplySewerageWasteManagementAndRemediationActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.157</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.686</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.571</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.057</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.214</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.214</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.071</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.071</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.386</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.229</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.029</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.143</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.457</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.043</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.043</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.286</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.371</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.014</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.157</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.348</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.243</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#England -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#England">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#CountryOrArea"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.097</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.274</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.673</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.573</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.109</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.224</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.205</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.778</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.218</openDataCourseWork1:pauseTrade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#NorthernIreland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#NorthernIreland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#CountryOrArea"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.065</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.304</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.652</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.402</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.109</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.13</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.239</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.728</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.272</openDataCourseWork1:pauseTrade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250AccommodationAndFoodServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250AccommodationAndFoodServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">975</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.329</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250AdministrativeAndSupportServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250AdministrativeAndSupportServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1287</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">453</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.352</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250ArtsEntertainmentAndRecreation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250ArtsEntertainmentAndRecreation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.434</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250Construction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250Construction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">722</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.288</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250Education -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250Education">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.419</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250HumanHealthAndSocialWorkActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250HumanHealthAndSocialWorkActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.586</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250InformationAndCommunication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250InformationAndCommunication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">794</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">297</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.374</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250Manufacturing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250Manufacturing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1785</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">648</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.363</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250MiningAndQuarrying -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250MiningAndQuarrying">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</openDataCourseWork1:receiveSurvey_num>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250OtherServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250OtherServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</openDataCourseWork1:receiveSurvey_num>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250ProfessionalScientificAndTechnicalActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250ProfessionalScientificAndTechnicalActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1303</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">468</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.359</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250RealEstateActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250RealEstateActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</openDataCourseWork1:receiveSurvey_num>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250TransportationAndStorage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250TransportationAndStorage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">528</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.366</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250WaterSupplySewerageWasteManagementAndRemediationActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250WaterSupplySewerageWasteManagementAndRemediationActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.385</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250AccommodationAndFoodServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250AccommodationAndFoodServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">659</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">195.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.296</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250AdministrativeAndSupportServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250AdministrativeAndSupportServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1072</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">361.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.337</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250ArtsEntertainmentAndRecreation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250ArtsEntertainmentAndRecreation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">98.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.323</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250Construction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250Construction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">312</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">76.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.244</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250Education -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250Education">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">457</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">191.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.418</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250HumanHealthAndSocialWorkActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250HumanHealthAndSocialWorkActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.396</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250InformationAndCommunication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250InformationAndCommunication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">422</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">121.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.287</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250Manufacturing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250Manufacturing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1370</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">449.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.328</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250MiningAndQuarrying -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250MiningAndQuarrying">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</openDataCourseWork1:receiveSurvey_num>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250OtherServiceActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250OtherServiceActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</openDataCourseWork1:receiveSurvey_num>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250ProfessionalScientificAndTechnicalActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250ProfessionalScientificAndTechnicalActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">720</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">265.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.368</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250RealEstateActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250RealEstateActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</openDataCourseWork1:receiveSurvey_num>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250TransportationAndStorage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250TransportationAndStorage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">335</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">89.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.266</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250WaterSupplySewerageWasteManagementAndRemediationActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250WaterSupplySewerageWasteManagementAndRemediationActivities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.282</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Scotland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Scotland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#CountryOrArea"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.098</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.29</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.717</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.63</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.075</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.235</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.165</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.776</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.217</openDataCourseWork1:pauseTrade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#UK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#UK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#CountryOrArea"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.099</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.274</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.672</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.564</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.112</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.223</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.207</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.767</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.228</openDataCourseWork1:pauseTrade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Wales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Wales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#CountryOrArea"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.127</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.387</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.738</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.651</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.137</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.255</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.134</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.011</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.762</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.227</openDataCourseWork1:pauseTrade>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#allWF_industries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#allWF_industries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.099</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.274</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.672</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.564</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.112</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.223</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.207</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.767</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.08</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.091</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.368</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.19</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.039</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.088</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.482</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.228</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17623</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.018</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.191</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.222</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.427</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.07</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.168</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6114</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.347</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.189</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#less250_Industries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#less250_Industries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.112</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.272</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.687</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.56</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.135</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.224</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.198</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.748</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.085</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.089</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.367</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.202</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.046</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.094</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.48</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.247</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10442</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.023</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.186</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.221</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.407</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.085</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.168</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3809</openDataCourseWork1:responseSurvey_num>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.205</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#mid_Industries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#mid_Industries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9116</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3452</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.379</openDataCourseWork1:responseSurvey_percentage>
+        <rdfs:comment>All industries which WF size is 100 - 249</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#min_Industries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#min_Industries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1326</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">357</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.269</openDataCourseWork1:responseSurvey_percentage>
+        <rdfs:comment>All industries which WF size is less than 100</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#over250_Industries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#over250_Industries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industries"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.079</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.279</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.647</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.571</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.073</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.222</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.223</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.798</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.072</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.094</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.37</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.169</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.027</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.078</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.486</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.197</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7181</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.011</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.224</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.461</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.046</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.168</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2305</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.321</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.163</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+        <rdfs:comment>All industries which WF size is over 250</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllWholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#AllWholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <openDataCourseWork1:applied_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.09</openDataCourseWork1:applied_AccreditedFinanceAgreements>
+        <openDataCourseWork1:applied_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.446</openDataCourseWork1:applied_BusinessRatesHoliday>
+        <openDataCourseWork1:applied_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.726</openDataCourseWork1:applied_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:applied_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.601</openDataCourseWork1:applied_DeferringVATPayments>
+        <openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.133</openDataCourseWork1:applied_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:applied_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25</openDataCourseWork1:applied_HMRCTimeToPayScheme>
+        <openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.155</openDataCourseWork1:applied_WeHaveNotAppliedForAnyOfTheseInitiatives>
+        <openDataCourseWork1:ceaseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*</openDataCourseWork1:ceaseTrade>
+        <openDataCourseWork1:continueTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.752</openDataCourseWork1:continueTrade>
+        <openDataCourseWork1:intending_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.083</openDataCourseWork1:intending_AccreditedFinanceAgreements>
+        <openDataCourseWork1:intending_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.093</openDataCourseWork1:intending_BusinessRatesHoliday>
+        <openDataCourseWork1:intending_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.321</openDataCourseWork1:intending_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:intending_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.158</openDataCourseWork1:intending_DeferringVATPayments>
+        <openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.042</openDataCourseWork1:intending_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:intending_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.076</openDataCourseWork1:intending_HMRCTimeToPayScheme>
+        <openDataCourseWork1:intending_NoneOfTheAbove rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.538</openDataCourseWork1:intending_NoneOfTheAbove>
+        <openDataCourseWork1:pauseTrade rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.243</openDataCourseWork1:pauseTrade>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2999</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:received_AccreditedFinanceAgreements rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.015</openDataCourseWork1:received_AccreditedFinanceAgreements>
+        <openDataCourseWork1:received_BusinessRatesHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.334</openDataCourseWork1:received_BusinessRatesHoliday>
+        <openDataCourseWork1:received_CoronavirusJobRetentionScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.239</openDataCourseWork1:received_CoronavirusJobRetentionScheme>
+        <openDataCourseWork1:received_DeferringVATPayments rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.469</openDataCourseWork1:received_DeferringVATPayments>
+        <openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.091</openDataCourseWork1:received_Government-fundedSmallBusinessGrantOrLoanSchemes>
+        <openDataCourseWork1:received_HMRCTimeToPayScheme rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.183</openDataCourseWork1:received_HMRCTimeToPayScheme>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.343</openDataCourseWork1:responseSurvey_percentage>
+        <received_Wehaven:tReceivedAnyThatWeAppliedFor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</received_Wehaven:tReceivedAnyThatWeAppliedFor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SL250WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#Industry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeLess250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1819</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">686</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.377</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#SO250WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lh2u21/ontologies/2022/2/openDataCourseWork1#WFSizeOver250"/>
+        <openDataCourseWork1:receiveSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1180</openDataCourseWork1:receiveSurvey_num>
+        <openDataCourseWork1:responseSurvey_num rdf:datatype="http://www.w3.org/2001/XMLSchema#float">344.0</openDataCourseWork1:responseSurvey_num>
+        <openDataCourseWork1:responseSurvey_percentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.292</openDataCourseWork1:responseSurvey_percentage>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
