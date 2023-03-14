@@ -1,5 +1,14 @@
 # Comp6214-Open-data Coursework 1
+
+
+
 Coursework 1
+Ontology with instance frequency statistics and TTL snippet
+
+![image](https://user-images.githubusercontent.com/45059424/224957986-de14e88b-7b8c-453f-ae63-6abadfde6c6f.png)
+
+
+
 visualized by Tableau.
 
 Dashboard for scenario 1
